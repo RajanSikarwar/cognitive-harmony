@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Harmony: Your Mental Wellness Companion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #6a5acd;
+            --secondary: #9370db;
+            --accent: #4b0082;
+            --light: #f5f5f5;
+            --dark: #333;
+            --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: var(--gradient);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/api/placeholder/1200/800') center/cover no-repeat;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 5rem 0;
+            background-color: white;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            color: var(--primary);
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+            text-align: center;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        .card p {
+            color: #666;
+            flex-grow: 1;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--gradient);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Navigation */
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1.5rem 0;
+            z-index: 10;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .cards-container {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">Cognitive Harmony</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/login" class="btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Cognitive Harmony: Your Mental Wellness Companion</h1>
+            <p>Embrace a futuristic approach to mental wellness with privacy-preserving technology. Dive into a world where your thoughts are nurtured, and your emotional well-being is prioritized.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Our Features</h2>
+            <div class="cards-container">
+                <!-- Feature 1 -->
+                <div class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Privacy-Preserving Local Models</h3>
+                    <p>Your data stays private. Harness the power of AI without compromising your personal information. Experience the tranquility of knowing your sensitive data remains on your device, providing a sanctuary for your mental explorations.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="card">
+                    <div class="card-icon">😊</div>
+                    <h3>Improvised Mood Detection</h3>
+                    <p>Understand your emotions better. Advanced algorithms that adapt to your emotional state for personalized support. Let our AI gently attune to your feelings, creating personalized pathways to enhance your emotional equilibrium.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="card">
+                    <div class="card-icon">💬</div>
+                    <h3>Flexible Dialogue & Therapeutic Prompting</h3>
+                    <p>Engage in meaningful conversations. AI-driven dialogues that guide you towards self-discovery and healing. Unlock the power of personalized therapeutic dialogues that mirror the empathy of human connection, encouraging profound introspection and mindful growth.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Anonymous Admin Dashboards</h3>
+                    <p>Transparency with anonymity. Review overall trends while ensuring individual user privacy. Observe the collective wellness journey through ethically-designed dashboards, providing insights without compromising the sanctity of personal data.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="card">
+                    <div class="card-icon">📓</div>
+                    <h3>Smart Journal</h3>
+                    <p>Your Personal Thoughts, Elevated. AI-Powered Journaling for Cognitive Wellness and Personal Growth. Welcome the future of journaling, where AI elevates your self-reflection, curates your cognitive wellness, and illuminates pathways for personal evolution.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>PTSD Coach</h3>
+                    <p>Guided Support for PTSD Management. Compassionate tools and guidance to navigate your journey to recovery. Embark on a supportive journey with empathetic AI tools that gently guide you toward recovery, turning trauma into triumph through personalized care.</p>
+                </div>
+
+                <!-- Feature 7 -->
+                <div class="card">
+                    <div class="card-icon">🧘</div>
+                    <h3>Mood Relaxation Therapy</h3>
+                    <p>Harmonize Your Senses, Reclaim Your Calm. Soothing audio and captivating art, designed to gently guide you to tranquility. Surrender to a symphony of soothing sounds and mesmerizing art, carefully composed to harmonize your senses and gently guide you back to tranquility.</p>
+                </div>
+
+                <!-- Feature 8 -->
+                <div class="card">
+                    <div class="card-icon">🏃</div>
+                    <h3>Smart Exercise Recommender</h3>
+                    <p>Move with Intention, Feel the Difference. Personalized exercise suggestions based on your mood and input, designed to invigorate your mind and body. Discover personalized exercise suggestions, each designed to invigorate your mind and body, encouraging mindful movement that resonates with your unique emotional landscape.</p>
+                </div>
+
+                <!-- Feature 9 -->
+                <div class="card">
+                    <div class="card-icon">👋</div>
+                    <h3>Acupressure Points</h3>
+                    <p>Find Balance with Gentle Touch. Discover the power of acupressure with our guide, easing tension and promoting well-being through targeted touch. Unlock the ancient wisdom of acupressure, as our guide empowers you to ease tension and promote well-being through the gentle art of targeted touch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Begin?</h2>
+            <p>Start your journey towards cognitive harmony today.</p>
+            <a href="/register" class="btn" id="get-started-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cognitive Harmony. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for basic interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Example of event handling for the Get Started button
+            const getStartedBtn = document.getElementById('get-started-btn');
+            if (getStartedBtn) {
+                getStartedBtn.addEventListener('click', function(e) {
+                    // Here you would typically handle the registration process
+                    // For now, we'll just add a console log as a placeholder
+                    console.log('Get Started button clicked');
+                    
+                    // This is where you'd connect to Flask backend
+                    // Example fetch request to a Flask endpoint:
+                    /*
+                    fetch('/api/register', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            action: 'registration_intent'
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Success:', data);
+                        // Redirect to registration page or handle as needed
+                    })
+                    .catch((error) => {
+                        console.error('Error:', error);
+                    });
+                    */
+                });
+            }
+
+            // Animation for card reveal as you scroll
+            const cards = document.querySelectorAll('.card');
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            cards.forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(50px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Harmony: Resources</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #6a5acd;
+            --secondary: #9370db;
+            --accent: #4b0082;
+            --light: #f5f5f5;
+            --dark: #333;
+            --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--gradient);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links li {
+            margin-left: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .user-profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        .main-container {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 40px 20px;
+        }
+
+        /* Page Header */
+        .page-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            color: var(--dark);
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.8;
+        }
+
+        /* Resource Cards */
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .resource-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-image {
+            height: 180px;
+            background-color: var(--secondary);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient);
+            opacity: 0.8;
+        }
+
+        .card-icon {
+            font-size: 3.5rem;
+            color: white;
+            z-index: 1;
+        }
+
+        .card-content {
+            padding: 25px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+
+        .card-content p {
+            color: #666;
+            margin-bottom: 20px;
+            flex: 1;
+        }
+
+        .card-btn {
+            display: inline-block;
+            background: var(--gradient);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            align-self: flex-start;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .card-btn:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            padding: 1.5rem 0;
+            text-align: center;
+            background: var(--dark);
+            color: white;
+            margin-top: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            
+            .resources-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .card-image {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Cognitive Harmony</a>
+            <ul class="nav-links">
+                <li><a href="dashboard.html">Mood-tracker</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li class="user-profile">
+                    <div class="user-avatar">U</div>
+                    <span id="username">Username</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1>Wellness Resources</h1>
+            <p>Explore our collection of tools designed to support your mental wellness journey. Each resource offers unique techniques to help you manage stress, improve mood, and enhance overall well-being.</p>
+        </div>
+
+        <!-- Resource Cards -->
+        <div class="resources-grid">
+            <!-- PTSD Coach -->
+            <div class="resource-card">
+                <div class="card-image">
+                    <div class="card-icon">🛡️</div>
+                </div>
+                <div class="card-content">
+                    <h2>PTSD Coach</h2>
+                    <p>Guided Support for PTSD Management. Compassionate tools and guidance to navigate your journey to recovery. Includes coping strategies, self-assessments, and educational resources.</p>
+                    <a href="#" class="card-btn">Open Tool</a>
+                </div>
+            </div>
+
+            <!-- Acupressure Points -->
+            <div class="resource-card">
+                <div class="card-image">
+                    <div class="card-icon">👋</div>
+                </div>
+                <div class="card-content">
+                    <h2>Acupressure Points</h2>
+                    <p>Find Balance with Gentle Touch. Discover the power of acupressure with our guide, easing tension and promoting well-being through targeted touch on specific pressure points.</p>
+                    <a href="#" class="card-btn">Open Tool</a>
+                </div>
+            </div>
+
+            <!-- Smart Exercise Recommender -->
+            <div class="resource-card">
+                <div class="card-image">
+                    <div class="card-icon">🏃</div>
+                </div>
+                <div class="card-content">
+                    <h2>Smart Exercise Recommender</h2>
+                    <p>Move with Intention, Feel the Difference. Personalized exercise suggestions based on your mood and energy level, designed to invigorate your mind and body.</p>
+                    <a href="#" class="card-btn">Open Tool</a>
+                </div>
+            </div>
+
+            <!-- Audio Therapy -->
+            <div class="resource-card">
+                <div class="card-image">
+                    <div class="card-icon">🎵</div>
+                </div>
+                <div class="card-content">
+                    <h2>Audio Therapy</h2>
+                    <p>Healing Through Sound. Experience the therapeutic power of carefully curated soundscapes, binaural beats, and guided audio sessions designed to reduce stress and enhance mood.</p>
+                    <a href="#" class="card-btn">Open Tool</a>
+                </div>
+            </div>
+
+            <!-- Art Therapy -->
+            <div class="resource-card">
+                <div class="card-image">
+                    <div class="card-icon">🎨</div>
+                </div>
+                <div class="card-content">
+                    <h2>Art Therapy</h2>
+                    <p>Express, Create, Heal. Engage in guided digital art exercises that help process emotions, reduce anxiety, and foster creative expression as a pathway to mental wellness.</p>
+                    <a href="#" class="card-btn">Open Tool</a>
+                </div>
+            </div>
+
+            <!-- Calm Capsules -->
+            <div class="resource-card">
+                <div class="card-image">
+                    <div class="card-icon">✨</div>
+                </div>
+                <div class="card-content">
+                    <h2>Calm Capsules</h2>
+                    <p>Bite-sized guided sessions to promote mindfulness and calm. Perfect for busy schedules, these quick exercises help you center yourself and find peace in just a few minutes.</p>
+                    <a href="#" class="card-btn">Open Tool</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Cognitive Harmony. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get username from localStorage or use a default
+            const username = localStorage.getItem('username') || 'User';
+            
+            // Set username in the UI
+            document.getElementById('username').textContent = username;
+            
+            // Add animation for card reveal as you scroll
+            const cards = document.querySelectorAll('.resource-card');
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            cards.forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(50px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>

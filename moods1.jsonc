@@ -1,0 +1,692 @@
+[
+  {
+    "mood": "Energized",
+    "question": "What’s giving you this surge of motivation today?",
+    "tags": ["energy", "self-awareness"]
+  },
+  {
+    "mood": "Energized",
+    "question": "Are you working on something that really excites you?",
+    "tags": ["excitement", "work"]
+  },
+  {
+    "mood": "Energized",
+    "question": "What goal are you most eager to achieve right now?",
+    "tags": ["goals", "motivation"]
+  },
+  {
+    "mood": "Energized",
+    "question": "How do you usually maintain this energy?",
+    "tags": ["energy", "habits"]
+  },
+  {
+    "mood": "Energized",
+    "question": "What does being energized allow you to accomplish?",
+    "tags": ["accomplishment", "energy"]
+  },
+  {
+    "mood": "Energized",
+    "question": "Who or what inspires this burst of energy in you?",
+    "tags": ["inspiration", "energy"]
+  },
+  {
+    "mood": "Energized",
+    "question": "Do you feel unstoppable today? What’s driving that?",
+    "tags": ["unstoppable", "motivation"]
+  },
+  {
+    "mood": "Energized",
+    "question": "What happens when this energy fades — how do you handle it?",
+    "tags": ["energy", "coping"]
+  },
+  {
+    "mood": "Energized",
+    "question": "How can you harness this momentum for tomorrow?",
+    "tags": ["momentum", "planning"]
+  },
+  {
+    "mood": "Energized",
+    "question": "Are there any habits that help you stay energized consistently?",
+    "tags": ["habits", "consistency"]
+  },
+    {
+    "mood": "Energized",
+    "question": "What’s one thing you’re proud of accomplishing today?",
+    "tags": ["accomplishment", "pride"]
+  },
+  {
+    "mood": "Focused",
+    "question": "What’s helping you stay so locked in today?",
+    "tags": ["focus", "productivity"]
+  },
+  {
+    "mood": "Focused",
+    "question": "Are you deep into something meaningful right now?",
+    "tags": ["meaning", "focus"]
+  },
+  {
+    "mood": "Focused",
+    "question": "How do you manage distractions when you’re this focused?",
+    "tags": ["distractions", "focus"]
+  },
+  {
+    "mood": "Focused",
+    "question": "What helps you enter this “flow” state?",
+    "tags": ["flow", "focus"]
+  },
+  {
+    "mood": "Focused",
+    "question": "How does being focused affect your sense of time?",
+    "tags": ["time", "focus"]
+  },
+  {
+    "mood": "Focused",
+    "question": "What would interrupt your focus most right now?",
+    "tags": ["focus", "interruption"]
+  },
+  {
+    "mood": "Focused",
+    "question": "Are you working on something that requires full attention?",
+    "tags": ["attention", "focus"]
+  },
+  {
+    "mood": "Focused",
+    "question": "Does this level of focus come easily to you?",
+    "tags": ["focus", "ease"]
+  },
+  {
+    "mood": "Focused",
+    "question": "What triggers your most productive sessions?",
+    "tags": ["productivity", "triggers"]
+  },
+  {
+    "mood": "Focused",
+    "question": "Have you noticed patterns in when or why you feel focused?",
+    "tags": ["patterns", "focus"]
+  },
+    {
+    "mood": "Happy",
+    "question": "What’s making you smile today?",
+    "tags": ["happiness", "joy"]
+  },
+  {
+    "mood": "Happy",
+    "question": "When did you last feel this happy?",
+    "tags": ["happiness", "memory"]
+  },
+  {
+    "mood": "Happy",
+    "question": "What contributed to this good mood?",
+    "tags": ["mood", "happiness"]
+  },
+  {
+    "mood": "Happy",
+    "question": "Are you sharing this happiness with others?",
+    "tags": ["happiness", "sharing"]
+  },
+  {
+    "mood": "Happy",
+    "question": "What are you grateful for right now?",
+    "tags": ["gratitude", "happiness"]
+  },
+  {
+    "mood": "Happy",
+    "question": "How does happiness affect your decision-making?",
+    "tags": ["happiness", "decisions"]
+  },
+  {
+    "mood": "Happy",
+    "question": "Can you pinpoint what made today a good day?",
+    "tags": ["good day", "happiness"]
+  },
+  {
+    "mood": "Happy",
+    "question": "Is this joy tied to something recent, or more ongoing?",
+    "tags": ["joy", "time"]
+  },
+  {
+    "mood": "Happy",
+    "question": "Do you often feel this way, or is it rare?",
+    "tags": ["frequency", "happiness"]
+  },
+  {
+    "mood": "Happy",
+    "question": "How does your body respond when you’re feeling this good?",
+    "tags": ["body", "happiness"]
+  },
+    {
+    "mood": "Happy",
+    "question": "What does happiness mean to you personally?",
+    "tags": ["meaning", "happiness"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "What’s been great about working with others today?",
+    "tags": ["collaboration", "teamwork"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "Do you feel like your ideas are heard in your team?",
+    "tags": ["ideas", "team"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "How do you contribute best in a group setting?",
+    "tags": ["contribution", "group"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "What does effective collaboration look like to you?",
+    "tags": ["collaboration", "effectiveness"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "Is there someone you really enjoy teaming up with?",
+    "tags": ["team", "enjoyment"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "Have you learned something new from someone today?",
+    "tags": ["learning", "team"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "Do you feel like you belong in your current group?",
+    "tags": ["belonging", "group"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "What makes collaboration successful for you?",
+    "tags": ["success", "collaboration"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "Do you feel energized by social engagement?",
+    "tags": ["social", "energy"]
+  },
+  {
+    "mood": "Collaborative",
+    "question": "Are you able to express yourself fully in group settings?",
+    "tags": ["expression", "group"]
+  },
+    {
+    "mood": "Confident",
+    "question": "What’s something you know you’re doing well today?",
+    "tags": ["confidence", "skill"]
+  },
+  {
+    "mood": "Confident",
+    "question": "What recent success boosted your confidence?",
+    "tags": ["success", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "Do you trust your instincts in the current moment?",
+    "tags": ["intuition", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "What helps you keep this strong sense of self-belief?",
+    "tags": ["self-belief", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "Are you aware of the strengths you bring to the table?",
+    "tags": ["strengths", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "How do you respond when others doubt you?",
+    "tags": ["doubt", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "Is this confidence coming from within or external validation?",
+    "tags": ["validation", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "How do you handle moments when your confidence is shaken?",
+    "tags": ["resilience", "confidence"]
+  },
+  {
+    "mood": "Confident",
+    "question": "Have you faced similar challenges before and succeeded?",
+    "tags": ["challenges", "success"]
+  },
+  {
+    "mood": "Confident",
+    "question": "What kind of feedback lifts your confidence the most?",
+    "tags": ["feedback", "confidence"]
+  },
+    {
+    "mood": "Neutral",
+    "question": "Are you feeling emotionally steady today?",
+    "tags": ["emotion", "neutral"]
+  },
+    {
+    "mood": "Neutral",
+    "question": "Do things feel routine or uneventful right now?",
+    "tags": ["routine", "neutral"]
+  },
+      {
+    "mood": "Neutral",
+    "question": "Would you prefer to feel more or less than you do now?",
+    "tags": ["preference", "neutral"]
+  },
+    {
+    "mood": "Neutral",
+    "question": "Is there something small that could shift your mood?",
+    "tags": ["mood", "shift"]
+  },
+      {
+    "mood": "Neutral",
+    "question": "Does neutral feel peaceful or more like disengaged?",
+    "tags": ["peace", "neutral"]
+  },
+    {
+    "mood": "Neutral",
+    "question": "What could bring more color into your day?",
+    "tags": ["color", "neutral"]
+  },
+  {
+    "mood": "Neutral",
+    "question": "Are you okay with how things are — or do you want change?",
+    "tags": ["change", "neutral"]
+  },
+  {
+    "mood": "Neutral",
+    "question": "Do you often find yourself in this state?",
+    "tags": ["frequency", "neutral"]
+  },
+  {
+    "mood": "Neutral",
+    "question": "What are you not noticing right now that could be important?",
+    "tags": ["awareness", "neutral"]
+  },
+  {
+    "mood": "Tired",
+    "question": "How rested do you feel right now?",
+    "tags": ["rest", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "Is your fatigue more mental, physical, or emotional?",
+    "tags": ["fatigue", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "When did you last truly rest?",
+    "tags": ["rest", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "Is something draining your energy consistently?",
+    "tags": ["energy", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "What’s the main thing you need a break from?",
+    "tags": ["break", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "How do you usually recharge when you feel like this?",
+    "tags": ["recharge", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "Are you pushing yourself more than usual?",
+    "tags": ["pushing", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "Do you feel guilty when you rest?",
+    "tags": ["guilt", "rest"]
+  },
+  {
+    "mood": "Tired",
+    "question": "What does your body need from you today?",
+    "tags": ["body", "tired"]
+  },
+  {
+    "mood": "Tired",
+    "question": "Can something on your plate be postponed or delegated?",
+    "tags": ["postpone", "delegate"]
+  },
+  {
+    "mood": "Calm",
+    "question": "What’s helping you stay grounded today?",
+    "tags": ["grounded", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "Do you feel safe and at ease right now?",
+    "tags": ["safety", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "Is this calm a result of inner work or external conditions?",
+    "tags": ["inner work", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "What does your environment feel like at the moment?",
+    "tags": ["environment", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "How can you protect this peaceful state?",
+    "tags": ["peace", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "What does calm mean to you — quiet, balance, or something else?",
+    "tags": ["meaning", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "Do you wish others around you could feel this too?",
+    "tags": ["empathy", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "Can you recall a moment that disrupted your calm recently?",
+    "tags": ["disruption", "calm"]
+  },
+  {
+    "mood": "Calm",
+    "question": "How do you return to calm when life gets chaotic?",
+    "tags": ["chaos", "calm"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "What’s been building pressure for you lately?",
+    "tags": ["pressure", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "Do you feel like you have too much on your plate?",
+    "tags": ["overload", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "Are you managing to set boundaries right now?",
+    "tags": ["boundaries", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "What’s one thing you wish you didn’t have to deal with today?",
+    "tags": ["relief", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "Can you identify what’s triggering your stress most?",
+    "tags": ["triggers", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "What support or resource would ease things for you?",
+    "tags": ["support", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "Do you feel you’re being too hard on yourself?",
+    "tags": ["self-criticism", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "How do you typically cope with stress?",
+    "tags": ["coping", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "Is there a task or responsibility that feels heavier than usual?",
+    "tags": ["responsibility", "stressed"]
+  },
+  {
+    "mood": "Stressed",
+    "question": "Are you able to pause — even for a short moment?",
+    "tags": ["pause", "stressed"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "What’s not working the way you expected today?",
+    "tags": ["expectations", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "Is your frustration with someone else or yourself?",
+    "tags": ["self", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "Have you been able to express this feeling openly?",
+    "tags": ["expression", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "What’s the root of what’s bothering you?",
+    "tags": ["root cause", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "Are your expectations clashing with reality?",
+    "tags": ["reality", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "Would taking a break help shift your perspective?",
+    "tags": ["perspective", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "How do you typically respond when you're blocked?",
+    "tags": ["response", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "Do you need to vent or work toward solutions?",
+    "tags": ["solutions", "frustrated"]
+  },
+  {
+    "mood": "Frustrated",
+    "question": "Has this issue come up before — is there a pattern?",
+    "tags": ["pattern", "frustrated"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "What are you most worried about right now?",
+    "tags": ["worry", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "Is your anxiety tied to a specific outcome or situation?",
+    "tags": ["situation", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "What’s the worst-case scenario your mind keeps revisiting?",
+    "tags": ["scenario", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "Can you name what’s making you feel unsafe?",
+    "tags": ["safety", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "What helps you calm down when anxiety spikes?",
+    "tags": ["calm", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "Do you feel supported during anxious moments?",
+    "tags": ["support", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "What’s something you can control right now?",
+    "tags": ["control", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "Are you being compassionate toward yourself in this state?",
+    "tags": ["compassion", "anxious"]
+  },
+  {
+    "mood": "Anxious",
+    "question": "How is anxiety showing up in your body?",
+    "tags": ["body", "anxious"]
+  },
+  {
+    "mood": "Bored",
+    "question": "Are you craving stimulation or novelty?",
+    "tags": ["stimulation", "bored"]
+  },
+  {
+    "mood": "Bored",
+    "question": "Do you feel underchallenged in your current work?",
+    "tags": ["challenge", "bored"]
+  },
+  {
+    "mood": "Bored",
+    "question": "When was the last time you felt truly engaged?",
+    "tags": ["engagement", "bored"]
+  },
+  {
+    "mood": "Bored",
+    "question": "Is there a small shift that could make things more exciting?",
+    "tags": ["excitement", "bored"]
+  },
+  {
+    "mood": "Bored",
+    "question": "Are you doing repetitive tasks or lacking connection?",
+    "tags": ["connection", "bored"]
+  },
+  {
+    "mood": "Bored",
+    "question": "What would help reignite your curiosity?",
+    "tags": ["curiosity", "bored"]
+  },
+  {
+    "mood": "Bored",
+    "question": "Do you tend to associate boredom with laziness or restlessness?",
+    "tags": ["restlessness", "bored"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "Are you trying to juggle too many things at once?",
+    "tags": ["juggling", "overwhelmed"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "What feels the heaviest to you right now?",
+    "tags": ["burden", "overwhelmed"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "Do you have a clear sense of priorities?",
+    "tags": ["priorities", "overwhelmed"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "Is it hard to ask for help when you’re feeling like this?",
+    "tags": ["help", "overwhelmed"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "What’s something you can pause or let go of temporarily?",
+    "tags": ["pause", "overwhelmed"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "Are you aware of how this overwhelm affects your well-being?",
+    "tags": ["well-being", "overwhelmed"]
+  },
+  {
+    "mood": "Overwhelmed",
+    "question": "What would a realistic “pause” look like right now?",
+    "tags": ["realistic", "overwhelmed"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "Do you feel disconnected from those around you?",
+    "tags": ["disconnected", "lonely"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "Is there someone you wish you could talk to today?",
+    "tags": ["talk", "lonely"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "Are you physically alone or feeling emotionally unseen?",
+    "tags": ["emotional", "lonely"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "What helps you feel more connected?",
+    "tags": ["connected", "lonely"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "Have you felt like this for a while or is it new?",
+    "tags": ["time", "lonely"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "What would make you feel more included or valued?",
+    "tags": ["valued", "lonely"]
+  },
+  {
+    "mood": "Lonely",
+    "question": "Do you tend to isolate yourself when feeling down?",
+    "tags": ["isolate", "lonely"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "How long have you been feeling this drained?",
+    "tags": ["drained", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "Are you struggling to find joy in things you once liked?",
+    "tags": ["joy", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "Do you feel emotionally numb or depleted?",
+    "tags": ["depleted", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "What have you been neglecting in self-care?",
+    "tags": ["self-care", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "Is your work/life balance off?",
+    "tags": ["balance", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "Do you feel like you’re constantly “on” with no relief?",
+    "tags": ["relief", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "What would true rest and restoration look like to you?",
+    "tags": ["restoration", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "What needs to change to help you recover?",
+    "tags": ["recover", "burnout"]
+  },
+  {
+    "mood": "Burned Out",
+    "question": "Who can support you through this burnout?",
+    "tags": ["support", "burnout"]
+  }
+]
